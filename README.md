@@ -1,0 +1,1 @@
+This is my third project with The Odin Project where I build a etch-a-sketch/sketchpad. Im still getting used to manipulating the DOM and writing good JS code.
