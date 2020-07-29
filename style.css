@@ -23,34 +23,26 @@ body {
     line-height: 40px;
 
 }
-#reset {
+button {
     height: 80px;
     width: 80px;
     background-color: white;
     border-radius: 50%;
     display: inline-block;
     position: absolute;
-    top: 25px;
-    left: 100px;
     text-align: center;
     line-height: 75px;
-    cursor: pointer;
-    box-shadow: 5px 5px black;  
+    box-shadow: 5px 5px black; 
+    outline: none;
+}
+#reset {
+    top: 25px;
+    left: 100px;
 }
 
 #rgb {
-    height: 80px;
-    width: 80px;
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
     top: 25px;
     right: 100px;
-    text-align: center;
-    line-height: 75px;
-    cursor: pointer;
-    box-shadow: 5px 5px black;
 }
 
 #rgb:hover {
@@ -77,10 +69,10 @@ body {
 .grid-item {
     height: 100%;
     width: 100%;
-    /*border: 1px solid #ddd;
-    text-align: center;*/
+    /*border: 1px solid #ddd;*/
 }
 
-.hover {
+.draw {
     background: black;
 }
+
